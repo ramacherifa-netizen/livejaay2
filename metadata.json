@@ -1,0 +1,6 @@
+{
+  "name": "LiveJaay - Du Live TikTok à la Commande Payée",
+  "description": "Plateforme SaaS e-commerce pour vendeurs TikTok au Sénégal : encaissement Wave, Orange Money, gestion des stocks en direct et suivi des commandes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

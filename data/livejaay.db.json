@@ -1,0 +1,387 @@
+{
+  "users": [
+    {
+      "id": "usr_marieme_01",
+      "fullName": "Marième Ndiaye",
+      "email": "marieme@dakarstyle.sn",
+      "phone": "+221771234567",
+      "passwordHash": "4750cbd165c956d61cfb9e77a9bc4481b470a00bbdc29d5556d99e2dea0b873bae348a71728bb77897032b3494b9362bdcec08ad9b68d68b6ade3d4131da9a1a",
+      "passwordSalt": "adec9a3740a67409a7c7adce917385c1",
+      "role": "vendeur",
+      "storeId": "str_dakarchic_01",
+      "createdAt": "2026-10-04T15:18:44.086Z",
+      "updatedAt": "2026-10-04T15:18:44.086Z"
+    },
+    {
+      "id": "usr_cefc874a3610f7f6",
+      "fullName": "Test Vendeur",
+      "email": "test@tiktok.com",
+      "phone": "+221770001122",
+      "passwordHash": "1f8554ca046cc43a2cb69b3c6d2ca3ffb83f1900932be2d0071b6ef6e419ccc1b2b0d56d788318c23e8e718a5e092cb888783bfbbe36c1eb71385536c4df9328",
+      "passwordSalt": "7af1617eb70a0856e3b2252fbe72dacf",
+      "role": "vendeur",
+      "storeId": "str_6eab3256f1bd90c8",
+      "createdAt": "2026-10-11T18:14:39.223Z",
+      "updatedAt": "2026-10-11T18:14:39.223Z"
+    }
+  ],
+  "stores": [
+    {
+      "id": "str_dakarchic_01",
+      "ownerId": "usr_marieme_01",
+      "name": "Dakar Chic Boutique",
+      "slug": "dakar-chic",
+      "description": "Boutique n°1 de prêt-à-porter féminin & accessoires à Dakar. Commandez en direct pendant nos Lives TikTok avec paiement Wave ou Orange Money et livraison rapide le jour même !",
+      "phone": "+221771234567",
+      "whatsapp": "+221771234567",
+      "tiktokHandle": "@dakarchic_officiel",
+      "instagramHandle": "@dakarchic_sn",
+      "logoUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&q=80",
+      "bannerUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=80",
+      "dispatchAddress": "Sacré-Cœur 3, en face Boulangerie Jaune, Dakar",
+      "deliveryZones": [
+        {
+          "id": "zone_dakar_centre",
+          "name": "Dakar Centre (Plateau, Médina, Fann, Point E)",
+          "price": 1500,
+          "estimatedTime": "2h - 4h"
+        },
+        {
+          "id": "zone_dakar_nord",
+          "name": "Dakar Ouest & Nord (Almadies, Ngor, Yoff, Ouakam, Mamelles)",
+          "price": 2000,
+          "estimatedTime": "2h - 5h"
+        },
+        {
+          "id": "zone_banlieue",
+          "name": "Banlieue (Pikine, Guédiawaye, Parcelles Assainies, Keur Massar)",
+          "price": 2500,
+          "estimatedTime": "3h - 6h"
+        },
+        {
+          "id": "zone_rufisque",
+          "name": "Rufisque & Diamniadio",
+          "price": 3500,
+          "estimatedTime": "Livraison express jour même"
+        },
+        {
+          "id": "zone_regions",
+          "name": "Régions (Thiès, Mbour, Saint-Louis, Kaolack)",
+          "price": 4000,
+          "estimatedTime": "24h - 48h (GP / Poste)"
+        }
+      ],
+      "paymentSettings": {
+        "waveEnabled": true,
+        "waveNumber": "77 123 45 67",
+        "waveAccountName": "Dakar Chic Boutique (Marième N.)",
+        "orangeMoneyEnabled": true,
+        "orangeMoneyNumber": "78 456 78 90",
+        "orangeMoneyAccountName": "Marième Ndiaye",
+        "cashOnDeliveryEnabled": true
+      },
+      "isLiveActive": true,
+      "liveTitle": "🔴 LIVE SPÉCIAL NOUVELLE COLLECTION BAZIN & SOIE - PROMOS EN DIRECT !",
+      "liveFeaturedProductId": "prod_01",
+      "createdAt": "2026-10-04T15:18:44.086Z",
+      "updatedAt": "2026-10-11T15:18:44.086Z"
+    },
+    {
+      "id": "str_6eab3256f1bd90c8",
+      "ownerId": "usr_cefc874a3610f7f6",
+      "name": "TikTok Shop Officiel",
+      "slug": "tiktok-shop-officiel",
+      "description": "Bienvenue sur la boutique officielle TikTok Shop Officiel ! Retrouvez nos articles présentés lors de nos lives TikTok avec paiement sécurisé Wave et Orange Money.",
+      "phone": "+221770001122",
+      "whatsapp": "+221770001122",
+      "tiktokHandle": "",
+      "dispatchAddress": "Dakar, Sénégal",
+      "deliveryZones": [
+        {
+          "id": "zone_dakar_centre",
+          "name": "Dakar Centre (Plateau, Médina, Fann, Point E)",
+          "price": 1500,
+          "estimatedTime": "2h - 4h"
+        },
+        {
+          "id": "zone_dakar_nord",
+          "name": "Dakar Nord/Ouest (Almadies, Ngor, Yoff, Ouakam)",
+          "price": 2000,
+          "estimatedTime": "2h - 5h"
+        },
+        {
+          "id": "zone_banlieue",
+          "name": "Banlieue (Pikine, Guédiawaye, Parcelles Assainies)",
+          "price": 2500,
+          "estimatedTime": "3h - 6h"
+        },
+        {
+          "id": "zone_rufisque",
+          "name": "Rufisque & Environs",
+          "price": 3500,
+          "estimatedTime": "Livraison express jour même"
+        },
+        {
+          "id": "zone_regions",
+          "name": "Régions (Thiès, Mbour, Saint-Louis, Kaolack)",
+          "price": 4000,
+          "estimatedTime": "24h - 48h (GP)"
+        }
+      ],
+      "paymentSettings": {
+        "waveEnabled": true,
+        "waveNumber": "770001122",
+        "waveAccountName": "Test Vendeur",
+        "orangeMoneyEnabled": true,
+        "orangeMoneyNumber": "770001122",
+        "orangeMoneyAccountName": "Test Vendeur",
+        "cashOnDeliveryEnabled": true
+      },
+      "isLiveActive": false,
+      "createdAt": "2026-10-11T18:14:39.223Z",
+      "updatedAt": "2026-10-11T18:14:39.223Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_01",
+      "storeId": "str_dakarchic_01",
+      "title": "Robe Bazin Riche Brodé \"Reine de Dakar\"",
+      "description": "Splendide robe longue en Bazin Riche Getzner teinté artisanalement, broderies dorées raffinées. Idéale pour cérémonies, mariages et soirées de gala.",
+      "price": 28000,
+      "compareAtPrice": 35000,
+      "stock": 6,
+      "liveCode": "L01",
+      "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=600&q=80",
+      "category": "Robes & Cérémonie",
+      "isAvailable": true,
+      "createdAt": "2026-10-06T15:18:44.086Z",
+      "updatedAt": "2026-10-11T15:18:57.937Z"
+    },
+    {
+      "id": "prod_02",
+      "storeId": "str_dakarchic_01",
+      "title": "Ensemble 2 Pièces Soie & Wax Moderne",
+      "description": "Chemisier fluide en soie italienne et pantalon palazzo taille haute aux motifs wax vibrants. Confortable et ultra élégant pour le travail et le quotidien.",
+      "price": 19500,
+      "compareAtPrice": 24000,
+      "stock": 12,
+      "liveCode": "L02",
+      "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80",
+      "category": "Ensembles & Tailleurs",
+      "isAvailable": true,
+      "createdAt": "2026-10-07T15:18:44.086Z",
+      "updatedAt": "2026-10-11T15:18:44.086Z"
+    },
+    {
+      "id": "prod_03",
+      "storeId": "str_dakarchic_01",
+      "title": "Sac à Main Cuir Vernis Noir & Chaîne Dorée",
+      "description": "Sac de luxe compact avec fermoir tourniquet plaqué or. Intérieur doublé velours, bandoulière chaîne amovible. L’accessoire incontournable de votre tenue.",
+      "price": 14000,
+      "compareAtPrice": 18000,
+      "stock": 4,
+      "liveCode": "L03",
+      "imageUrl": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80",
+      "category": "Maroquinerie & Sacs",
+      "isAvailable": true,
+      "createdAt": "2026-10-08T15:18:44.086Z",
+      "updatedAt": "2026-10-11T15:18:44.086Z"
+    },
+    {
+      "id": "prod_04",
+      "storeId": "str_dakarchic_01",
+      "title": "Babouches Sénégalaises Perles & Cuir Fait-Main",
+      "description": "Paire artisanale d’exception brodée de perles de verre par nos maîtres artisans de Thiès. Semelle en cuir véritable cousue main.",
+      "price": 12000,
+      "compareAtPrice": 15000,
+      "stock": 9,
+      "liveCode": "L04",
+      "imageUrl": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80",
+      "category": "Chaussures",
+      "isAvailable": true,
+      "createdAt": "2026-10-09T15:18:44.086Z",
+      "updatedAt": "2026-10-11T15:18:44.086Z"
+    },
+    {
+      "id": "prod_05",
+      "storeId": "str_dakarchic_01",
+      "title": "Thiouraye Royal & Parfum d’Ambiance Oud Mystique",
+      "description": "Véritable encens sénégalais Thiouraye préparé selon la tradition secrète dakaroise aux huiles de santal et bois d’oud précieux. Senteur envoûtante longue tenue.",
+      "price": 8500,
+      "stock": 18,
+      "liveCode": "L05",
+      "imageUrl": "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&w=600&q=80",
+      "category": "Cosmétique & Senteurs",
+      "isAvailable": true,
+      "createdAt": "2026-10-10T15:18:44.086Z",
+      "updatedAt": "2026-10-11T15:18:44.086Z"
+    },
+    {
+      "id": "prod_06",
+      "storeId": "str_dakarchic_01",
+      "title": "Collier Ras-de-Cou Or Sculpté & Pendentif Cauri",
+      "description": "Bijou fin trempé dans l’or 18 carats orné d’un véritable cauri sculpté stylisé. Résistant à l’eau et hypoallergénique.",
+      "price": 9000,
+      "compareAtPrice": 12000,
+      "stock": 6,
+      "liveCode": "L06",
+      "imageUrl": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=600&q=80",
+      "category": "Bijoux & Accessoires",
+      "isAvailable": true,
+      "createdAt": "2026-10-11T15:18:44.086Z",
+      "updatedAt": "2026-10-11T15:18:44.086Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "LJ-2026-6352",
+      "storeId": "str_dakarchic_01",
+      "customer": {
+        "fullName": "Sokhna Astou",
+        "phone": "+221775551234",
+        "deliveryAddress": "Sacré-Cœur 2, Villa 45",
+        "deliveryZoneId": "zone_dakar_centre",
+        "deliveryZoneName": "Dakar Centre (Plateau, Médina, Fann, Point E)"
+      },
+      "items": [
+        {
+          "productId": "prod_01",
+          "title": "Robe Bazin Riche Brodé \"Reine de Dakar\"",
+          "price": 28000,
+          "quantity": 1,
+          "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=600&q=80",
+          "liveCode": "L01"
+        }
+      ],
+      "subtotal": 28000,
+      "deliveryFee": 1500,
+      "total": 29500,
+      "paymentMethod": "WAVE",
+      "paymentStatus": "COMPLETE",
+      "paymentReference": "WAVE_SN_MV3YXNDD7920",
+      "status": "PAYE",
+      "isLiveOrder": true,
+      "createdAt": "2026-10-11T15:18:57.938Z",
+      "updatedAt": "2026-10-11T15:18:57.938Z"
+    },
+    {
+      "id": "LJ-2026-9041",
+      "storeId": "str_dakarchic_01",
+      "customer": {
+        "fullName": "Fatou Bintou Sow",
+        "phone": "+221773456789",
+        "email": "fatou.sow@gmail.com",
+        "deliveryAddress": "Almadies, Résidence Les Orchidées, Porte B4",
+        "deliveryZoneId": "zone_dakar_nord",
+        "deliveryZoneName": "Dakar Ouest & Nord (Almadies)",
+        "deliveryNotes": "Appeler à l’arrivée, gardien devant la grille."
+      },
+      "items": [
+        {
+          "productId": "prod_01",
+          "title": "Robe Bazin Riche Brodé \"Reine de Dakar\"",
+          "price": 28000,
+          "quantity": 1,
+          "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=600&q=80",
+          "liveCode": "L01"
+        }
+      ],
+      "subtotal": 28000,
+      "deliveryFee": 2000,
+      "total": 30000,
+      "paymentMethod": "WAVE",
+      "paymentStatus": "COMPLETE",
+      "paymentReference": "WAVE_SN_TX8941032",
+      "status": "EN_LIVRAISON",
+      "isLiveOrder": true,
+      "createdAt": "2026-10-11T14:33:44.086Z",
+      "updatedAt": "2026-10-11T15:08:44.086Z"
+    },
+    {
+      "id": "LJ-2026-9042",
+      "storeId": "str_dakarchic_01",
+      "customer": {
+        "fullName": "Awa Diop",
+        "phone": "+221765123490",
+        "email": "awadiop.style@yahoo.fr",
+        "deliveryAddress": "Plateau, 14 Rue Victor Hugo, Étage 2",
+        "deliveryZoneId": "zone_dakar_centre",
+        "deliveryZoneName": "Dakar Centre (Plateau)",
+        "deliveryNotes": "Livrer avant 17h au bureau."
+      },
+      "items": [
+        {
+          "productId": "prod_02",
+          "title": "Ensemble 2 Pièces Soie & Wax Moderne",
+          "price": 19500,
+          "quantity": 1,
+          "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80",
+          "liveCode": "L02"
+        },
+        {
+          "productId": "prod_05",
+          "title": "Thiouraye Royal & Parfum d’Ambiance Oud Mystique",
+          "price": 8500,
+          "quantity": 1,
+          "imageUrl": "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&w=600&q=80",
+          "liveCode": "L05"
+        }
+      ],
+      "subtotal": 28000,
+      "deliveryFee": 1500,
+      "total": 29500,
+      "paymentMethod": "ORANGE_MONEY",
+      "paymentStatus": "COMPLETE",
+      "paymentReference": "OM_SN_REF667123",
+      "status": "EN_PREPARATION",
+      "isLiveOrder": true,
+      "createdAt": "2026-10-11T14:53:44.086Z",
+      "updatedAt": "2026-10-11T14:58:44.086Z"
+    },
+    {
+      "id": "LJ-2026-9039",
+      "storeId": "str_dakarchic_01",
+      "customer": {
+        "fullName": "Cheikh Tidiane Ba",
+        "phone": "+221708899001",
+        "deliveryAddress": "Point E, près de la pharmacie du Point E",
+        "deliveryZoneId": "zone_dakar_centre",
+        "deliveryZoneName": "Dakar Centre (Point E)"
+      },
+      "items": [
+        {
+          "productId": "prod_03",
+          "title": "Sac à Main Cuir Vernis Noir & Chaîne Dorée",
+          "price": 14000,
+          "quantity": 1,
+          "imageUrl": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80",
+          "liveCode": "L03"
+        }
+      ],
+      "subtotal": 14000,
+      "deliveryFee": 1500,
+      "total": 15500,
+      "paymentMethod": "WAVE",
+      "paymentStatus": "COMPLETE",
+      "paymentReference": "WAVE_SN_TX893900",
+      "status": "LIVRE",
+      "isLiveOrder": false,
+      "createdAt": "2026-10-10T15:18:44.086Z",
+      "updatedAt": "2026-10-11T09:18:44.086Z"
+    }
+  ],
+  "passwordResetTokens": [],
+  "sessions": [
+    {
+      "token": "LJ_sess_e14ead0992a81d027803c54487883d801b4d650e67c03ffa639f59c0999f750f",
+      "userId": "usr_marieme_01",
+      "expiresAt": 1792336730735
+    },
+    {
+      "token": "LJ_sess_00c3b8160a60e56d6b4b3e4b41ae97bb07774fc041b0e5cb1c9896d8f56da557",
+      "userId": "usr_cefc874a3610f7f6",
+      "expiresAt": 1792347279224
+    }
+  ]
+}
